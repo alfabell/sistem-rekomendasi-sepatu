@@ -1,0 +1,19 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model shoes {
+  id          Int     @id @default(autoincrement())
+  nama_sepatu String? @db.VarChar(150)
+  brand       String? @db.VarChar(50)
+  olahraga    String? @db.VarChar(20)
+  lapangan    String? @db.VarChar(20)
+  harga       Int?
+  berat       String? @db.VarChar(20)
+  material    String? @db.VarChar(50)
+}

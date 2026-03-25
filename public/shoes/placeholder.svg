@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef2ff"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect x="80" y="80" width="1040" height="640" rx="40" fill="#ffffff" stroke="#e4e4e7" stroke-width="6"/>
+  <path d="M330 510c160-160 380-210 560-110 40 22 72 55 80 96 10 55-24 104-84 124-190 64-414 52-612-16-42-14-62-63-46-94 18-35 58-38 102 0z" fill="#e0e7ff"/>
+  <path d="M330 510c160-160 380-210 560-110 40 22 72 55 80 96" fill="none" stroke="#6366f1" stroke-width="18" stroke-linecap="round"/>
+  <path d="M340 520c140 84 360 108 540 52" fill="none" stroke="#a5b4fc" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="470" cy="455" r="18" fill="#6366f1"/>
+  <circle cx="540" cy="435" r="18" fill="#6366f1"/>
+  <text x="600" y="640" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#71717a">
+    Tidak ada gambar
+  </text>
+</svg>
